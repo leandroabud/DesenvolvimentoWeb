@@ -3,8 +3,29 @@
 <html>
     <head>
         <title>Continuando no HTML</title>
+        <style>
+            table, td{
+                border: solid 1 px
+                green;
+            }
+        </style>
     </head>
     <body>
+        <h1>Divisões / Divisórias</h1>
+
+        <div style="background-color: salmon; width: 400px; height: 200px; color: darkgreen;">
+            <h1>Lista de Presentes</h1>
+            <ul>
+                <li>Presente 1: 6 copos de melancia</li>
+                <li>Presente 2: 6 pratos de melancia</li>
+                <li>Presente 3: 6 jogos de americano de melancia</li>
+            </ul>
+        </div>
+
+        <div style="background-color: sandybrown; width: 100px; height: 100px;">
+            <p>Mais uma divisória</p>
+        </div>
+
         <h1>Continuando nossos estudos com HTML</h1>
         <p>Teste do live server</p>
         <ul>
@@ -48,5 +69,41 @@
                 <td>27/04</td>
             </tr>
         </table>
+        <h1>Formulários</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" autocomplete="off">
+            <br>
+            <label for="nomePai">Nome do Pai:</label>
+            <input type="text" name="nomePai">
+            <br>
+            <label for="nomeMae">Nome da Mãe:</label>
+            <input type="text" name="nomeMae">
+            <br>
+            <label for="nomeMae">Nome da Mãe:</label>
+            <input type="text" name="nome">
+            <br>
+            <label for="cpf">CPF:</label>
+            <input type="cpf" name="cpf">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+            <br>
+            <label for="data">Dara de Aniversário:</label>
+            <input type="date" name="data">
+            <br>
+            <label for="naturalidade">Naturalidade:</label>
+            <select name="Naturalidade">
+                <option value="rioDeJaneiro">Rio de Janeiro</option>
+                <option value="saoPaulo">São Paulo</option>
+                <option value="vitoria">Vitória</option>
+                <option value="outro">Outro</option>
+                <option value="outro">Outro</option>
+            </select>
+            <br>
+            <input type="text" name="outro">
+            <br>
+            <input type="submit" name="Enviar Dados">
+        </form>
     </body>
 </html>
